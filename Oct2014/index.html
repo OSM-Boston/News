@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <html>
 <head>
-<title>Welcome to Maptime Boston!</title>
+<title>OpenStreetMap Boston</title>
 <link target="_blank" href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 <style>
 
@@ -143,134 +143,225 @@ font-family: 'Courier New';
 
 
 <div class="slide image_bottom">
-  <p>OSM News - September 2014<br/>
-  <i>OpenStreetMap Boston Meetup</i>
+  <p>OSM News<br/>
+  October 2014<br/>
   </p>
-   <img src="images/OsmBostonBlack.jpg">
+  <img src="images/OsmBostonBlackV1.jpg">
 </div>
 
+<!-- maproulette -->
 
 <div class="slide image_full">
-  <p>OSM Turns 10</p>
-  <img src="images/CAM00332.jpg">
-</div>
-
-<div class="slide image">
-  <img src="images/CAM00336.jpg">
-</div>
-
-<div class="slide image">
-  <img src="images/CAM00344.jpg">
-</div>
-
-
-<div class="slide image_full">
-  <p>OSM In Red/Blue 3D</p>
-  <img src="images/Boston in 3D 2.png"/>
-</div>
-
-<div class="slide">
-  <p>An experiment by Christian Quest</br>
-  <a href="http://osm.org/user/cquest">(OSM: cquest)</a>
-  <br/><br/>
-  <a href="http://tile.openstreetmap.fr/~cquest/leaflet/4d.html#13/48.8500/2.3300">Slippy map</a><br/>
-  <a href="https://cquest.hackpad.com/OpenStreetMap-goes-in-the-4th-dimension--ju3XWhj2qAV">Blog post</a>
-  </p>
-</div>
-
-
-<div class="slide">  
-  <p>Recent question on OSM mailing lists: <i>"In google maps world you can create your own map, with waypoints, POIs etc., of your choice and export it as KML etc., etc.,
- IS there a similar website/tool/system available for OSM where I can create a POI map online and then export?"</i></p>  
-</div>
-
-<div class="slide image_full">
-  <p>Try &micro;Map <a href="http://umap.openstreetmap.fr/en/">umap.openstreetmap.fr/en/</a></p>
-  <img src="images/uMap example.png">
-</div>
-  
-  
-<div class="slide image_full">
-  <p>Routing in OSM in beta</p>
-  <img src="images/OSM Routing.png">
-</div>
-
-<div class="slide">  
-  <p>Demo instance running at<br/>
-   <a href="http://jsrouting.apis.dev.openstreetmap.org/">jsrouting.apis.dev.openstreetmap.org</a>
-  </p>
-</div>
-
-
-<div class="slide">
-  <p>Improvements to the main map style<br/>
-  <i>(mapnik)</i>
-  <br/>
-  <br/>
-  Project at<br/>
-  <a href="https://github.com/gravitystorm/openstreetmap-carto">github.com/gravitystorm/openstreetmap-carto</a>
-  </p>  
+  <p>Maproulette updates<br/><br/>
+  (see <a href="http://maproulette.org">maproulette.org</a>)</p>
+  <img src="images/maproulette.png">
 </div>
 
 <div class="slide image_bottom">
-  <p>Splitting ref tags to render refs as multi-line shields.</p>
-  <a href="http://osm.org/go/ZefcIN8B-">
-  <img src="images/Carto Shields.png">
-  </a>
+  <p><i>Ways need smoothing</i> and<br/>
+  <i>Crossing ways</i> done!</p>
+   <img src="images/maproulette_challenges.png">
 </div>
 
 <div class="slide image_bottom">
-  <p>Rendering crossroad names</p>
-  <a href="http://osm.org/go/ZfKC4oNd--">
-  <img src="images/Carto Intersection Names.png">
-  </a>
+  <p>New challenge:<br/>
+  <a href="http://www.openstreetmap.org/user/mvexel/diary/23975">
+  </a>TIGER Mismatched Ways</p>
+   <img src="images/tiger_mismatch.png">
 </div>
+
+
+<!-- Indoor tagging / OSM buildings -->
+
+<div class="slide image_full">
+  <p>Indoor tagging proposal.<br/>
+  Based on work from SOTM-EU 2014<br/>
+  (see <a href="https://wiki.openstreetmap.org/wiki/Simple_Indoor_Tagging">OSM wiki</a>)</p>
+  <img src="images/simple_indoor_tagging.png">
+</div>
+
+<div class="slide image_full">
+  <p>Designed to work with<br/>
+  <a href="https://wiki.openstreetmap.org/wiki/Simple_3D_Buildings">"Simple 3D Buildings"</a> proposal</p>
+  <img src="images/simple_3d_buildings_scheme.png">
+</div>
+
+<div class="slide image_full">
+  <p>Example: <a href="http://osmbuildings.org/?lat=36.11314&lon=-115.17375&zoom=16">osmbuildings.org</a></p>
+  <img src="images/osm_buildings.png">
+</div>
+
+
+<!-- HOT Ebola mapping -->
+
+<div class="slide image_bottom">
+<p>
+HOT Mapping areas of west Africa's Ebola Outbreak
+<br/>
+<a href="https://www.mapbox.com/blog/ebola-numbers/">mapbox.com/blog/ebola-numbers</a>
+</p>
+<img src="images/hot-ebola.jpg"/>
+<a class="citation">photo: Espace OSM Francophone</a>
+</div>
+
+<div class="slide image_full">
+<p>
+You can help!
+<br/><br/>
+<a href="http://hot.openstreetmap.org/get-involved">hot.openstreetmap.org/get-involved</a>
+</p>
+</div>
+
+
+<!-- Nominatim updates -->
+
+<div class="slide bullets">
+  <p><i>Nominatim update: 2.3.0</i>
+  </p>
+  <ul>
+  <li>Support for waterway relations</li>
+  <li>POIs (like shops) can inherit address from building</li>
+  <li>Misc bugfixes and improvements</li>
+  </ul>
+  
+</div>
+
+<div class="slide image_full">
+  <p>Try latest Nominatim at:<br/>
+  <a href="http://nominatim.openstreetmap.org">nominatim.openstreetmap.org</a></p>
+  <img src="images/nominatim_boston.png">
+</div>
+
+
+<!-- OSM-US elections -->
+
+<div class="slide bullets">
+  <p>OSM-US Election Results<br/>
+  <i>New board:</i>
+  </p>
+  <ul>
+  <li>Alyssa Wright</li>
+  <li>Martijn van Exel</li>
+  <li>Alex Barth</li>
+  <li>Ian Dees</li>
+  <li>Eleanor Tutt</li> 
+  </ul>
+</div>
+
+<div class="slide">
+<p>
+About OSM-US:<br/>
+"We strive to support the OpenStreetMap project in the United States through fostering awareness, ensuring broad availability of data, continuous quality improvement, and an active community."
+</p>
+</div>
+
+<div class="slide">
+<p><i>mvexel:</i>
+"The coming weeks we will be busy with a few things. Firstly, the transition phase getting the new members up to speed. Secondly, finalizing the State Of The Map US 2015 bid selection process. And finally, working our way through the final administrativia involved with becoming a 501(c)(3) registered charity."
+</p>
+</div>
+
+<div class="slide image_full">
+<p>
+Details <a href="http://openstreetmap.us/2014/10/election-results/">here</a>.
+</p>
+<img src="images/800px-SOTM_US_2014_group_photo_HarryWood.jpg"/>
+<a class="citation">flickr / Harry wood</a>
+</div>
+
+
+<!-- Carto updates -->
 
 <div class="slide bullets">
 <p>
-<i>OpenStreetMap-carto v2.19.0</i>
-</p>
+<i>OpenStreetMap-carto v2.22.0</i>
 <ul>
-<li>Render names on all types of highway areas, not just highway=pedestrian
-<li>Make minimum zoom level depend on area size
+<li>Major changes in landcover labelling.</li>
+<li>Changes in island and islet labelling.</li>
+<li>Bus stops now have their name rendered.</li>
+<li>Renders bridge=boardwalk,
+cantilever, covered, low_water_crossing, movable, trestle, and
+viaduct.</li>
+<li>etc...</li>
 </ul>
 </div>
 
-<div class="slide bullets">
+<div class="slide">
+<p>Changelog and source code on Github:</br>
+<a href="https://github.com/gravitystorm/openstreetmap-carto">github.com/gravitystorm/openstreetmap-carto</a>
+</div>
+
+
+<!-- SimonPoole: OSM Contributor Stats -->
+
+
+<div class="slide image_bottom">
 <p>
-<i>OpenStreetMap-carto v2.20.0</i>
+<i>Simon Poole</i><br/>
+OSM Contributor Stats after 3 quarters: Already past last year
+<br/>
+<a href="https://www.openstreetmap.org/user/SimonPoole/diary/24000">osm.org/user/SimonPoole/diary/24000</a>
 </p>
-<ul>
-<li>Splitting ref tags to render refs as multi-line shields. This
-  rendering is probably the best we can do until Mapnik 3 becomes
-  common (#750)
-<li>Rendering crossroad names, a feature common in parts of Asia (#813)
-<li>Steps to fix the cyan from small water bodies at low zoom. This should
-  also stop over-representing water at low zooms. (#878)
-<li>Migrating the last of the issues from the old style over from trac
-<li>Adjusting zoom levels where features are displayed to be more consistent
-<li>Improved ordering of POIs (#860) 
-</ul>
+<img href="images/Active_contributors_year.png"/>
+</div>
+
+
+<!-- Recent and upcoming events -->
+
+<div class="slide">
+<p>
+Recent and Upcoming Events
+</p>
+</div>
+
+<div class="slide image_full">
+<p>
+Trail Mapping in the Blue Hills<br/>
+<b>10/19</b>
+</p>
+<img src="images/blue_hills_mapping.jpg"/>
+</div>
+
+<div class="slide image">
+<img src="images/blue_hills_new_trails.png"/>
 </div>
 
 
 <div class="slide image_full">
-  <p>Osmose Updated (incl. coverage map)<br/>
-  <a href="http://osmose.openstreetmap.fr/map/#zoom=2&lat=0&lon=0&layer=Mapnik&overlays=FFFFFFFFFFFFFFFFFTFT">osmose.openstreetmap.fr/map</a>
-  </p>
-  <img src="images/Osmose.png">
+<p>
+<i>Coming up:</i><br/>
+US Fall 2014 #mapathon<br/>
+<b>11/15 (tentatively)</b>
+</p>
+<img src="images/spring14_editathon.jpg.jpg"/>
 </div>
 
-<div class="slide image_bottom">  
-  <p>State of the Map<br/>
-  <i>Buenos Aires, November 7-9</i>
-  </p>
-  <a href="http://wiki.openstreetmap.org/wiki/State_Of_The_Map_2014"><img src="images/sotm.png"/></a>
+<div class="slide image_full">
+<p>
+Alex Barth:<br/>
+<a href="http://openstreetmap.us/2013/07/why-editathons/">Blog post on #mapathons</a>
+</p>
+<img src="images/spring14_editathon.jpg.jpg"/>
 </div>
 
-<div class="slide image">
-  <img src="images/800px-SOTM_US_2014_group_photo_HarryWood.jpg">
-  <a class="citation">flickr / Harry wood</a>
+
+<div class="slide image_bottom">
+<p>
+State of the Map 2014<br/>
+Buenos Aires, November 7-9<br/>
+<a href="http://www.stateofthemap.org/?l=en">www.stateofthemap.org</a>
+</p>
+<img src="images/sotm.png"/>
+</div>
+
+
+<!-- the end -->
+
+<div class="slide image_bottom">
+  <p>Lars Ahlzen</br>
+  <a href="mailto:lars@ahlzen.com">lars@ahlzen.com</a>
+  </p>
+  <img src="images/OsmBostonBlackV1.jpg">
 </div>
 
 
